@@ -16,7 +16,6 @@ Experts and Leaders in Experimentation
 1. Ron Kohavi, PhD -- http://ai.stanford.edu/~ronnyk/
 2. Stefan Thomke -- https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6566 
 3. Ya Xu -- https://scholar.google.com/citations?user=YMA322YAAAAJ&hl=en
-4. 
 
 Leading A/B Testing Paid Platforms 
 
