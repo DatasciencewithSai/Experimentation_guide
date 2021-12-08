@@ -5,6 +5,8 @@ Types of Experimentation:
 1. Randomized Controlled Experiments(A/B tests) 
 2. Quasi Experiments/ Natural Experiments (When Randomization is not posible) 
 
+
+
 Companies with internal builtin experimentaion Platforms
 
 1. Netflix -- https://research.netflix.com/research-area/experimentation-and-causal-inference
@@ -19,6 +21,14 @@ Experts and Leaders in Experimentation
 1. Ron Kohavi, PhD -- http://ai.stanford.edu/~ronnyk/
 2. Stefan Thomke -- https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6566 
 3. Ya Xu -- https://scholar.google.com/citations?user=YMA322YAAAAJ&hl=en
+
+A/B Testing Courses Online
+
+1. https://www.udacity.com/course/ab-testing--ud257
+
+Experimentation Books
+
+1. Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing:  https://www.amazon.com/Trustworthy-Online-Controlled-Experiments-Practical/dp/1108724264
 
 Leading A/B Testing Paid Platforms 
 
