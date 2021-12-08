@@ -1,6 +1,9 @@
 # Experimentation_guide
 This is the complete guide for controlled and uncontrolled experimentation. It includes resources required for experimentation
 
+Types of Experimentation:
+1. Randomized Controlled Experiments(A/B tests) 
+2. Quasi Experiments/ Natural Experiments (When Randomization is not posible) 
 
 Companies with internal builtin experimentaion Platforms
 
