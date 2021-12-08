@@ -5,7 +5,9 @@ Types of Experimentation:
 1. Randomized Controlled Experiments(A/B tests) 
 2. Quasi Experiments/ Natural Experiments (When Randomization is not posible) 
 
+Complete Guide to A/B Testing 
 
+1. https://www.shopify.com/blog/the-complete-guide-to-ab-testing (Shopify) 
 
 Companies with internal builtin experimentaion Platforms
 
