@@ -30,7 +30,7 @@ A/B Testing Courses Online
 
 Data Science certification Corses
 1. HarvardX's Data Science Professional Certificate (available on edX, Data Science using R)
-3. IBM's IBM Data Science Professional Certificate (available on edX, Data Science using Python) [https://www.edx.org/professional-certificate/ibm-data-science?index=product&queryID=31d38cbaa8c5300cbee8217eccd820b4&position=1]
+3. IBM's IBM Data Science Professional Certificate (available on edX, Data Science using Python) 
 4. 
 
 Experimentation Books
