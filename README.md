@@ -53,7 +53,9 @@ Complete Guide to A/B Testing
 
 1. https://www.shopify.com/blog/the-complete-guide-to-ab-testing (Shopify)
 
-Companies with internal builtin experimentation Platforms
+Companies with builtin experimentation Platforms
+
+These are leading companies that are leaders in online experimentation. They are using the experimentation platform for variety of purposes all the way from testing new product launches to small change to button on website.
 
 1. Netflix -- https://research.netflix.com/research-area/experimentation-and-causal-inference
 2. Airbnb -- https://medium.com/airbnb-engineering/https-medium-com-jonathan-parks-scaling-erf-23fd17c91166
@@ -62,6 +64,7 @@ Companies with internal builtin experimentation Platforms
 5. Linkedin -- https://engineering.linkedin.com/blog/topic/experimentation
 6. Intuit -- https://www.intuit.com/blog/innovation/engineering/meet-wasabi-an-open-source-ab-testing-platform/
 7. facebook -- https://ax.dev/
+8. Groupon https://people.groupon.com/2018/groupon-data-driven-experiment-chicago/  
 
 Experts and Leaders in Experimentation
 1. Ron Kohavi, PhD -- http://ai.stanford.edu/~ronnyk/
