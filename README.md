@@ -65,6 +65,7 @@ These are leading companies that are leaders in online experimentation. They are
 6. Intuit -- https://www.intuit.com/blog/innovation/engineering/meet-wasabi-an-open-source-ab-testing-platform/
 7. facebook -- https://ax.dev/
 8. Groupon https://people.groupon.com/2018/groupon-data-driven-experiment-chicago/  
+9. Etsy - https://codeascraft.com/2018/10/03/how-etsy-handles-peeking-in-a-b-testing/
 
 Experts and Leaders in Experimentation
 1. Ron Kohavi, PhD -- http://ai.stanford.edu/~ronnyk/
