@@ -1,9 +1,28 @@
 # Experimentation_guide
-This is the complete guide for controlled and uncontrolled experimentation. It includes resources required for experimentation
+
+Objective:
+This is the complete guide for controlled and uncontrolled experimentation. It includes resources required for experimentation. 
+Purpose of the document is to put together all resources and information related to Randomized Controlled Experiments(A/B tests) and Quasi Experiments/ Natural Experiments (When Randomization is not posible). This should serve as guide for experimentation and will evolve over the time with resources. Topics should cover all the way from technical to business questions related to experimentation. Includes all the information I have gathered over the years. It covers Statistical concepts behind experiments and technical tools for execution and implementation. Resources from industry experts and research in the field of experimentation. 
+
 
 Types of Experimentation:
 1. Randomized Controlled Experiments(A/B tests) 
 2. Quasi Experiments/ Natural Experiments (When Randomization is not posible) 
+
+Application of Randomized Controlled Experiments(A/B Tests) 
+1. Website Development 
+  a. Ecommerce Product development 
+  b. Feature launch 
+2. Digital Operations 
+  a. Webpage Content 
+  b. Onsite Promotions 
+  c. Content aesthetics, positioning 
+  
+Application of Quasi or Natural experiments 
+1. Retail store level experiments 
+2. Marketing DMA level experiments 
+3. Customer level experiments 
+ 
 
 Complete Guide to A/B Testing 
 
