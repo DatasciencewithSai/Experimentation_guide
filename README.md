@@ -4,6 +4,17 @@ Objective:
 This is the complete guide for controlled and uncontrolled experimentation. It includes resources required for experimentation.
 Purpose of the document is to put together all resources and information related to Randomized Controlled Experiments(A/B tests) and Quasi Experiments/ Natural Experiments (When Randomization is not possible). This should serve as guide for experimentation and will evolve over the time with resources. Topics should cover all the way from technical to business questions related to experimentation. Includes all the information I have gathered over the years. It covers Statistical concepts behind experiments and technical tools for execution and implementation. Resources from industry experts and research in the field of experimentation.
 
+Table of Contents
+
+1.	Steps involved in Digital experimentation
+2.	Statistical Concepts
+3.	Tools
+4.	Metrics
+5.	Books
+6.	Experts/Leaders
+7.	References
+8.	Industry leading Companies
+
 
 Types of Experimentation:
 1. Randomized Controlled Experiments(A/B tests)
@@ -22,6 +33,20 @@ Application of Quasi or Natural experiments
 1. Retail store level experiments
 2. Marketing DMA level experiments
 3. Customer level experiments
+
+Steps involved in Digital experimentation
+
+ There are 3 steps involved in online experimentation:
+
+1.	Pre-analysis and Planning
+2.	Test Design and execution
+3.	Test Analysis and Results
+
+
+Pre-analysis and Planning:
+
+There are lot of things involves in pre-test analysis. Figuring out the key metrics for evaluating and accurately measuring the test hypothesis. Lot of brain storming. Planning includes all the way from test execution and data collection. Data collection is key for successfully measuring the test results. We need to understand end to end data collection and storage process. Data collection includes what data needed for to evaluate test hypothesis and how it should be collected.
+
 
 
 Complete Guide to A/B Testing
