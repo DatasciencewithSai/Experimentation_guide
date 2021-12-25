@@ -79,6 +79,8 @@ Data Science certification Courses
 Experimentation Books
 
 1. Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing:  https://www.amazon.com/Trustworthy-Online-Controlled-Experiments-Practical/dp/1108724264
+2. 2.	Experimentation Works: The Surprising Power of Business Experiments By Stefan Thomke: https://www.amazon.com/Experimentation-Works-Surprising-Business-Experiments/dp/163369710X/ref=sr_1_1?keywords=experimentation+works&qid=1565294493&s=gateway&sr=8-1
+
 
 Leading A/B Testing Paid Platforms
 
