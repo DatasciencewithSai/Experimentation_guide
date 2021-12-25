@@ -47,7 +47,7 @@ A/B Testing Courses Online
 
 1. https://www.udacity.com/course/ab-testing--ud257
 
-Data Science certification Corses
+Data Science certification Courses
 1. HarvardX's Data Science Professional Certificate (available on edX, Data Science using R)
 2. IBM's IBM Data Science Professional Certificate (available on edX, Data Science using Python) 
 
