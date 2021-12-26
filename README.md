@@ -21,6 +21,7 @@ Types of Experimentation:
 2. Quasi Experiments/ Natural Experiments (When Randomization is not possible)
 
 Application of Randomized Controlled Experiments(A/B Tests)
+
 1. Website Development
   a. E-commerce Product development
   b. Feature launch
@@ -30,6 +31,7 @@ Application of Randomized Controlled Experiments(A/B Tests)
   c. Content aesthetics, positioning
 
 Application of Quasi or Natural experiments
+
 1. Retail store level experiments
 2. Marketing DMA level experiments
 3. Customer level experiments
@@ -57,8 +59,11 @@ These are leading companies that are leaders in online experimentation. They are
 7. facebook -- https://ax.dev/
 8. Groupon https://people.groupon.com/2018/groupon-data-driven-experiment-chicago/  
 9. Etsy - https://codeascraft.com/2018/10/03/how-etsy-handles-peeking-in-a-b-testing/
+10. Twitter - 4.	https://blog.twitter.com/engineering/en_us/a/2015/twitter-experimentation-technical-overview.html
+
 
 Experts and Leaders in Experimentation
+
 1. Ron Kohavi, PhD -- http://ai.stanford.edu/~ronnyk/
 2. Stefan Thomke -- https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6566
 3. Ya Xu -- https://scholar.google.com/citations?user=YMA322YAAAAJ&hl=en
@@ -74,7 +79,14 @@ Data Science certification Courses
 Experimentation Books
 
 1. Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing:  https://www.amazon.com/Trustworthy-Online-Controlled-Experiments-Practical/dp/1108724264
- 2.	Experimentation Works: The Surprising Power of Business Experiments By Stefan Thomke: https://www.amazon.com/Experimentation-Works-Surprising-Business-Experiments/dp/163369710X/ref=sr_1_1?keywords=experimentation+works&qid=1565294493&s=gateway&sr=8-1
+2. Experimentation Works: The Surprising Power of Business Experiments By Stefan Thomke: https://www.amazon.com/Experimentation-Works-Surprising-Business-Experiments/dp/163369710X/ref=sr_1_1?keywords=experimentation+works&qid=1565294493&s=gateway&sr=8-1
+3. A/B Testing by Dan Siroker
+4. You should test that by Chris Goward
+5. Mastering 'Metrics: The Path from Cause to Effect
+6. How to Measure Anything by Doug Hubbard’s
+7. Lean Analytics: Use Data to Build a Better Startup Faster
+8. http://faculty.marshall.usc.edu/gareth-james/ISL/
+
 
 
 Leading A/B Testing Paid Platforms
@@ -90,7 +102,7 @@ Tools:
 Tools for experimentation includes Data accessing tools, Data analysis tools, Data reporting tools, and statistical analysis tools.
 Tools also includes experimentation execution Tools like Monetate and Optimizely for digital controlled experimentation. APT for offline store level experimentation.
 
-Tools also includes web analytics tools that captures data and gives users great control on ease of using the data. These tools include IBM Coremetrics, Google Analytics, Adobe Analytics. Web user session viewing tools like Fullstory and Tealeaf are also very useful.  
+Tools also includes web analytics tools that captures data and gives users great control on ease of using the data. These tools include IBM Coremetrics, Google Analytics, Adobe Analytics. Web user session viewing tools like Fullstory and Tealeau are also very useful.  
 
 Data accessing, analysis and reporting tools:
 SQL is primarily used for data accessing and minimal data analysis on the query window. Splunk can be used for real-time reporting and data collection. One should definitely have great understanding of data warehouses like Teradata or Snowflake or unstructured data warehouses.
@@ -98,3 +110,32 @@ SQL is primarily used for data accessing and minimal data analysis on the query 
 * Data analysis tools range from SQL and excel and R and Tableau.
 * Data reporting tools includes Excel, Tableau or Cognos.
 * Statistical Analysis Tools includes primarily R, excel, Python.
+
+Metrics
+
+Defining the key metric for any test is very crucial and there are many key metrics that are involved in eCommerce experimentation.
+
+eComm website metrics:
+
+1.	CVR
+2.	Sales
+3.	Order
+4.	AOV (Average order value)
+5.	RPS (Revenue per session)
+6.	ATC Rate
+7.	Cart abandonment rate
+8.	Checkout initiation rate
+9.	Email submission rate
+10.	Subscription rate
+11.	CTR (Click through rate)
+12.	Attach rate (Item attached with base sku)
+13.	Impressions
+14.	Clicks
+15.	Sessions
+16.	Customer life-time value
+17.	Customer churn rate
+18.	Email opens
+19.	Email click through
+20.	ROAS (Revenue on ad spent)
+21.	ROI (Return on investment)
+22.	IGM (Gross margin)
