@@ -117,12 +117,12 @@ Defining the key metric for any test is very crucial and there are many key metr
 
 eComm website metrics:
 
-1.	CVR
+1.	CVR(Conversion Rate)
 2.	Sales
 3.	Order
 4.	AOV (Average order value)
 5.	RPS (Revenue per session)
-6.	ATC Rate
+6.	ATC Rate(Add to cart rate)
 7.	Cart abandonment rate
 8.	Checkout initiation rate
 9.	Email submission rate
