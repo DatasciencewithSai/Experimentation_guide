@@ -142,34 +142,34 @@ eComm website metrics:
 
 Statistical Concepts
 
-•	Statistical Significance
-•	Continuous Metrics
-•	Binary Metrics
-•	Outlier Analysis
-•	Power Analysis
-•	Causal Impact
-•	Forecasting
-•	Predictive Analytics
-•	Standard Error
-•	Standard Deviation
-•	Variance
-•	Bias
-•	Linear Regression Analysis
-•	Log regression analysis
-•	Central Limit theorem
-•	Law of large numbers
-•	Inferential statistics
-•	Sensitivity
-•	Specificity
-•	Decision Tree method
-•	Causal Inference
-•	Time series analysis
-•	Cluster Analysis
-•	Bonferroni Correction
-•	False Discovery Rate
-•	Causality
-•	Scaling Methods
-•	Euclidean Distance calculation
+* Statistical Significance
+*	Continuous Metrics
+*	Binary Metrics
+*	Outlier Analysis
+*	Power Analysis
+*	Causal Impact
+*	Forecasting
+*	Predictive Analytics
+*	Standard Error
+*	Standard Deviation
+*	Variance
+*	Bias
+*	Linear Regression Analysis
+*	Log regression analysis
+*	Central Limit theorem
+*	Law of large numbers
+*	Inferential statistics
+*	Sensitivity
+*	Specificity
+*	Decision Tree method
+*	Causal Inference
+*	Time series analysis
+*	Cluster Analysis
+*	Bonferroni Correction
+*	False Discovery Rate
+*	Causality
+*	Scaling Methods
+*	Euclidean Distance calculation
 
 
 
