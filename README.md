@@ -142,7 +142,9 @@ eComm website metrics:
 
 Statistical Concepts
 
-* Statistical Significance
+Below are the list of statistical concepts and models used for Pre analysis, Test results measurement.
+
+* Statistical Significance Tests
 *	Continuous Metrics
 *	Binary Metrics
 *	Outlier Analysis
@@ -170,10 +172,16 @@ Statistical Concepts
 *	Causality
 *	Scaling Methods
 *	Euclidean Distance calculation
+*	Principal Component Analysis (PCA)
+*	Propensity Score Analysis
+*	Market Matching
+*	Randomization Methods
+*	Regression Discontinuity
+*	Difference in Difference Regression  
 
 
 
-Statistical Tests:
+Statistical Significance Tests:
 
 1.	T test
 2.	Z test
