@@ -139,3 +139,133 @@ eComm website metrics:
 20.	ROAS (Revenue on ad spent)
 21.	ROI (Return on investment)
 22.	IGM (Gross margin)
+
+Statistical Concepts
+
+•	Statistical Significance
+•	Continuous Metrics
+•	Binary Metrics
+•	Outlier Analysis
+•	Power Analysis
+•	Causal Impact
+•	Forecasting
+•	Predictive Analytics
+•	Standard Error
+•	Standard Deviation
+•	Variance
+•	Bias
+•	Linear Regression Analysis
+•	Log regression analysis
+•	Central Limit theorem
+•	Law of large numbers
+•	Inferential statistics
+•	Sensitivity
+•	Specificity
+•	Decision Tree method
+•	Causal Inference
+•	Time series analysis
+•	Cluster Analysis
+•	Bonferroni Correction
+•	False Discovery Rate
+•	Causality
+•	Scaling Methods
+•	Euclidean Distance calculation
+
+
+
+Statistical Tests:
+
+1.	T test
+2.	Z test
+3.	Chi-square Test
+4.	K Means Cluster
+5.	Rosners outliers test
+6.	Mann-Whitney Test
+
+Statistical methods used to measure statistical validity of test results. For experimentation mainly inferential statistical methods are used to measure statistical significance. There are two kinds of approaches involved in measuring significance and test results they are
+
+•	Frequentist Methods
+•	Bayesian statistics methods
+
+Under Frequentist Methods are based on normal distribution concepts and they include inferential statistical methods. Various statistical methods that are used in digital controlled experimentation are
+
+Statistical Significance:
+
+Statistical significance estimates the validity of the test results and is a measure of false positives and lesser the P values more confidence in the numbers.
+
+There are various methods exists to measure significance in difference scenarios and various metrics.
+
+Continuous Metrics:
+
+In this category metrics like sales and IGM and any other metrics that are based on averages fall under this category.
+
+Mean Tests:
+
+1.	T-test
+
+Median Test:
+
+This is similar to T test for averages but used for median.
+1.	Mann -Whitney Test (Hart, 2001)
+
+Binary Metrics:
+
+Metrics like Conversion rate and metrics related to proportions does fall under this category.
+
+1.	Z-test for proportions
+2.	Chi square test
+
+Outlier Analysis:
+
+Its very crucial for controlled experiments to exclude outliers from data and there are various methods available to identify outliers in data. Excluding outlier’s data also brings questions from business regarding impact of data excluded on incremental benefits from tests. It’s a balance between statistics and business when dealing with outliers.
+
+1.	Quantile plot
+2.	K-means cluster analysis
+3.	Rosners Test for outliers [1]
+
+Power Analysis:
+
+Power analysis is used to estimate sample size required to execute test with minimal desired lift in the specified metric.
+
+Sample Size Estimation for Continuous Metrics (Averages)
+Sample Size Estimation for Binary metrics (CVR)
+
+
+Causal Impact: (R Package)
+
+Causal inferences methodologies are used to measure the causal impact from the intervention meaning we can use this to measure the impact of a particular offer or promotion. Causal Impact can be used measure the incremental benefits from running the campaign based on pre-post analysis (which is something different from regular controlled digital experiments which is always during the test comparison).  [3]
+
+
+Forecasting:
+
+I have used the Prophet R Package for forecasting traffic for based on spend for digital marketing. The package is very robust, and it can handle for lot of exceptional scenarios in forecasting. [4]
+
+Marketing Channel Attribution:
+
+I did used channel attribution package from R which is based on Marco chain model to give credit to each touchpoint in customer journey before making a purchase on the site. Mostly focused towards digital marketing. This package does lot in terms of simplifying the use of model application. And there are various kinds of attributions like last click, first click, linear, proportionate attribution. [5][6]
+
+Bias:
+
+There are various kinds of bias that need to be taken care of for valid experimentation results. [1]
+
+•	Selection Bias
+•	Randomization Bias
+•	Statistical Bias
+
+Bonferroni correction:
+
+Significance required to eliminate error by correction method.
+Divide the significance level 0.05 by the number of tests in the multiple testing. Say if you are measuring 20 tests, then your significance level for the test should be 0.05/20 = 0.0025. The problem of Bonferroni correction is it tends to be too conservative. If many metrics are tested at the same time, maybe none of them turned out to be significant.
+
+False Discovery Rate:
+
+Control false discovery rate (FDR): FDR = # false positives / # total rejections.
+
+Causality:
+
+Best scientific way to prove causality, i.e., the changes in metrics are caused by changes introduced in the treatment(s)[2]
+
+
+Reference:
+1.	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3136079/ (Randomization Bias)  
+2.	https://exp-platform.com/Documents/2015-08OnlineControlledExperimentsKDDKeynoteNR.pdf
