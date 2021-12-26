@@ -95,6 +95,6 @@ Tools also includes web analytics tools that captures data and gives users great
 Data accessing, analysis and reporting tools:
 SQL is primarily used for data accessing and minimal data analysis on the query window. Splunk can be used for real-time reporting and data collection. One should definitely have great understanding of data warehouses like Teradata or Snowflake or unstructured data warehouses.
 
-Data analysis tools range from SQL and excel and R and Tableau.
-Data reporting tools includes Excel, Tableau or Cognos.
-Statistical Analysis Tools includes primarily R, excel, Python.
+* Data analysis tools range from SQL and excel and R and Tableau.
+* Data reporting tools includes Excel, Tableau or Cognos.
+* Statistical Analysis Tools includes primarily R, excel, Python.
