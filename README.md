@@ -4,7 +4,7 @@ Objective:
 This is the complete guide for controlled and uncontrolled experimentation. It includes resources required for experimentation.
 Purpose of the document is to put together all resources and information related to Randomized Controlled Experiments(A/B tests) and Quasi Experiments/ Natural Experiments (When Randomization is not possible). This should serve as guide for experimentation and will evolve over the time with resources. Topics should cover all the way from technical to business questions related to experimentation. Includes all the information I have gathered over the years. It covers Statistical concepts behind experiments and technical tools for execution and implementation. Resources from industry experts and research in the field of experimentation.
 
-Table of Contents
+Table of Contents:
 
 1.	Steps involved in Digital experimentation
 2.	Statistical Concepts
@@ -34,20 +34,11 @@ Application of Quasi or Natural experiments
 2. Marketing DMA level experiments
 3. Customer level experiments
 
-Steps involved in Digital experimentation
-
- There are 3 steps involved in online experimentation:
+Typical steps involved in experimentation
 
 1.	Pre-analysis and Planning
 2.	Test Design and execution
 3.	Test Analysis and Results
-
-
-Pre-analysis and Planning:
-
-There are lot of things involves in pre-test analysis. Figuring out the key metrics for evaluating and accurately measuring the test hypothesis. Lot of brain storming. Planning includes all the way from test execution and data collection. Data collection is key for successfully measuring the test results. We need to understand end to end data collection and storage process. Data collection includes what data needed for to evaluate test hypothesis and how it should be collected.
-
-
 
 Complete Guide to A/B Testing
 
@@ -93,3 +84,17 @@ Leading A/B Testing Paid Platforms
 3. Monetate -- https://kibocommerce.com/personalization-software/
 4. Google Optimize -- https://support.google.com/optimize/answer/6197440?hl=en#zippy=%2Cin-this-article
 5. Visual Website Optimizer(VWO) -- https://vwo.com/
+
+Tools:
+
+Tools for experimentation includes Data accessing tools, Data analysis tools, Data reporting tools, and statistical analysis tools.
+Tools also includes experimentation execution Tools like Monetate and Optimizely for digital controlled experimentation. APT for offline store level experimentation.
+
+Tools also includes web analytics tools that captures data and gives users great control on ease of using the data. These tools include IBM Coremetrics, Google Analytics, Adobe Analytics. Web user session viewing tools like Fullstory and Tealeaf are also very useful.  
+
+Data accessing, analysis and reporting tools:
+SQL is primarily used for data accessing and minimal data analysis on the query window. Splunk can be used for real-time reporting and data collection. One should definitely have great understanding of data warehouses like Teradata or Snowflake or unstructured data warehouses.
+
+Data analysis tools range from SQL and excel and R and Tableau.
+Data reporting tools includes Excel, Tableau or Cognos.
+Statistical Analysis Tools includes primarily R, excel, Python.
