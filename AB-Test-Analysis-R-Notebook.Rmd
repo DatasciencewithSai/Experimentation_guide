@@ -1,0 +1,66 @@
+## This Notebook can be can be used for Ecommerce website A/B testing Analysis purposes
+
+## Understing Data
+```{r}
+View(Test_Data)
+names(Test_Data)
+class(Test_Data)
+mode(Test_Data)
+str(Test_Data)
+```
+
+## A/B Test Summary results 
+```{r}
+
+install.packages("formattable")
+install.packages("kableExtra")
+library(kableExtra)
+library(formattable)
+library(tidyverse)
+
+Test_Data %>% group_by(SPLIT_GROUP) %>% summarise(
+  Start_Date = format(min(TEST_DATE), '%Y-%m-%d'), 
+  End_Date = format(max(TEST_DATE), '%Y-%m-%d'),
+  Test_Duration = n_distinct(format((TEST_DATE), '%Y-%m-%d')),
+  Sessions = comma(n_distinct(SESSION_ID),digit = 0), 
+  Total_Sales = sum(SALES),
+  Total_Orders = sum(ORDERS),
+  CVR = formattable::percent(sum(ORDERS)/n_distinct(SESSION_ID)), 
+  AOV= round(sum(SALES)/sum(ORDERS),2),
+  RPS = round(sum(SALES)/n_distinct(SESSION_ID),2)
+  ) %>% 
+  kbl()%>%kable_styling(bootstrap_options = c("striped", "hover", "responsive"))
+```
+
+## Trend Chart for CVR 
+```{r}
+Test_Data %>% mutate(TEST_DATE_1 = format(TEST_DATE, '%Y-%m-%d')) %>% 
+  group_by(TEST_DATE_1, SPLIT_GROUP) %>%
+  summarise(Daily_Sales = sum(SALES),
+           Daily_Orders = sum(ORDERS), 
+           CVR = sum(SALES)/sum(ORDERS)) %>% 
+  ggplot(aes(TEST_DATE_1, CVR, group = SPLIT_GROUP, col = SPLIT_GROUP))+
+  geom_line()
+```
+
+## Statistical significance for Sales
+```{r}
+ t.test(filter(Test_Data, SPLIT_GROUP=="CONTROL")$SALES,filter(Test_Data, SPLIT_GROUP=="TEST")$SALES, 
+ alternative= "two.sided",paired = FALSE)
+```
+
+## Scatter Plot 
+```{r}
+Test_Data %>% ggplot(aes(ORDERS,SALES))+
+  geom_point( aes(colour = SPLIT_GROUP,shape = SPLIT_GROUP))+
+  labs(title="Scatter Plot")
+```
+
+## Box Plot 
+```{r}
+Test_Data %>% filter(SALES > 0 )%>%ggplot(aes(SPLIT_GROUP, SALES))+
+  geom_boxplot()+
+  scale_y_continuous(trans = "log2")
+```
+
+
