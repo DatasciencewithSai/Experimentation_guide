@@ -32,6 +32,14 @@ Test_Data %>% group_by(SPLIT_GROUP) %>% summarise(
   kbl()%>%kable_styling(bootstrap_options = c("striped", "hover", "responsive"))
 ```
 
+##Lift Calculations
+```{r}
+RPS_Lift <- percent((((Test_Data%>%  summarise(t_sales = mean(case_when(SPLIT_GROUP == "TEST" ~ SALES), na.rm=TRUE)))/
+(summarise(Test_Data,t_sales = mean(case_when(SPLIT_GROUP == "CONTROL" ~ SALES), na.rm=TRUE))))-1),2)
+
+```
+
+
 ## Trend Chart for CVR 
 ```{r}
 Test_Data %>% mutate(TEST_DATE_1 = format(TEST_DATE, '%Y-%m-%d')) %>% 
