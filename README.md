@@ -1,10 +1,10 @@
 # Experimentation_guide
 
-Objective:
+**Objective:**
 This is the complete guide for controlled and uncontrolled experimentation. It includes resources required for experimentation.
 Purpose of the document is to put together all resources and information related to Randomized Controlled Experiments(A/B tests) and Quasi Experiments/ Natural Experiments (When Randomization is not possible). This should serve as guide for experimentation and will evolve over the time with resources. Topics should cover all the way from technical to business questions related to experimentation. Includes all the information I have gathered over the years. It covers Statistical concepts behind experiments and technical tools for execution and implementation. Resources from industry experts and research in the field of experimentation.
 
-Table of Contents:
+**Table of Contents:**
 
 1.	Steps involved in Digital experimentation
 2.	Statistical Concepts
@@ -15,12 +15,11 @@ Table of Contents:
 7.	References
 8.	Industry leading Companies
 
-
-Types of Experimentation:
+**Types of Experimentation:**
 1. Randomized Controlled Experiments(A/B tests)
 2. Quasi Experiments/ Natural Experiments (When Randomization is not possible)
 
-Application of Randomized Controlled Experiments(A/B Tests)
+**Application of Randomized Controlled Experiments(A/B Tests)**
 
 1. Website Development
   a. E-commerce Product development
@@ -30,19 +29,19 @@ Application of Randomized Controlled Experiments(A/B Tests)
   b. Onsite Promotions
   c. Content aesthetics, positioning
 
-Application of Quasi or Natural experiments
+**Application of Quasi or Natural experiments**
 
 1. Retail store level experiments
 2. Marketing DMA level experiments
 3. Customer level experiments
 
-Typical steps involved in experimentation
+**Typical steps involved in experimentation**
 
 1.	Pre-analysis and Planning
 2.	Test Design and execution
 3.	Test Analysis and Results
 
-Complete Guide to A/B Testing
+**Complete Guide to A/B Testing**
 
 1. https://www.shopify.com/blog/the-complete-guide-to-ab-testing (Shopify)
 
@@ -62,13 +61,13 @@ These are leading companies that are leaders in online experimentation. They are
 10. Twitter - 4.	https://blog.twitter.com/engineering/en_us/a/2015/twitter-experimentation-technical-overview.html
 
 
-Experts and Leaders in Experimentation
+**Experts and Leaders in Experimentation**
 
 1. Ron Kohavi, PhD -- http://ai.stanford.edu/~ronnyk/
 2. Stefan Thomke -- https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6566
 3. Ya Xu -- https://scholar.google.com/citations?user=YMA322YAAAAJ&hl=en
 
-A/B Testing Courses Online
+**A/B Testing Courses Online**
 
 1. https://www.udacity.com/course/ab-testing--ud257
 
@@ -76,7 +75,7 @@ Data Science certification Courses
 1. HarvardX's Data Science Professional Certificate (available on edX, Data Science using R)
 2. IBM's IBM Data Science Professional Certificate (available on edX, Data Science using Python)
 
-Experimentation Books
+**Experimentation Books**
 
 1. Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing:  https://www.amazon.com/Trustworthy-Online-Controlled-Experiments-Practical/dp/1108724264
 2. Experimentation Works: The Surprising Power of Business Experiments By Stefan Thomke: https://www.amazon.com/Experimentation-Works-Surprising-Business-Experiments/dp/163369710X/ref=sr_1_1?keywords=experimentation+works&qid=1565294493&s=gateway&sr=8-1
@@ -89,7 +88,7 @@ Experimentation Books
 
 
 
-Leading A/B Testing Paid Platforms
+**Leading A/B Testing Paid Platforms**
 
 1. Adobe Target -- https://business.adobe.com/products/target/adobe-target.html
 2. Optimizely -- https://www.optimizely.com/products/intelligence/web-experimentation/
@@ -97,7 +96,7 @@ Leading A/B Testing Paid Platforms
 4. Google Optimize -- https://support.google.com/optimize/answer/6197440?hl=en#zippy=%2Cin-this-article
 5. Visual Website Optimizer(VWO) -- https://vwo.com/
 
-Tools:
+**Tools:**
 
 Tools for experimentation includes Data accessing tools, Data analysis tools, Data reporting tools, and statistical analysis tools.
 Tools also includes experimentation execution Tools like Monetate and Optimizely for digital controlled experimentation. APT for offline store level experimentation.
@@ -111,11 +110,11 @@ SQL is primarily used for data accessing and minimal data analysis on the query 
 * Data reporting tools includes Excel, Tableau or Cognos.
 * Statistical Analysis Tools includes primarily R, excel, Python.
 
-Metrics
+**Metrics**
 
 Defining the key metric for any test is very crucial and there are many key metrics that are involved in eCommerce experimentation.
 
-eComm website metrics:
+**eComm website metrics**:
 
 1.	CVR(Conversion Rate)
 2.	Sales
@@ -140,7 +139,7 @@ eComm website metrics:
 21.	ROI (Return on investment)
 22.	IGM (Gross margin)
 
-Statistical Concepts
+**Statistical Concepts**
 
 Below are the list of statistical concepts and models used for Pre analysis, Test results measurement.
 
@@ -179,9 +178,7 @@ Below are the list of statistical concepts and models used for Pre analysis, Tes
 *	Regression Discontinuity
 *	Difference in Difference Regression  
 
-
-
-Statistical Significance Tests:
+**Statistical Significance Tests:**
 
 1.	T test
 2.	Z test
@@ -197,7 +194,7 @@ Statistical methods used to measure statistical validity of test results. For ex
 
 Under Frequentist Methods are based on normal distribution concepts and they include inferential statistical methods. Various statistical methods that are used in digital controlled experimentation are
 
-Statistical Significance:
+**Statistical Significance:**
 
 Statistical significance estimates the validity of the test results and is a measure of false positives and lesser the P values more confidence in the numbers.
 
@@ -221,9 +218,9 @@ Binary Metrics:
 Metrics like Conversion rate and metrics related to proportions does fall under this category.
 
 1.	Z-test for proportions
-2.	Chi square test
+2.	Chi square test for categorical variables
 
-Outlier Analysis:
+**Outlier Analysis:**
 
 Its very crucial for controlled experiments to exclude outliers from data and there are various methods available to identify outliers in data. Excluding outlier’s data also brings questions from business regarding impact of data excluded on incremental benefits from tests. It’s a balance between statistics and business when dealing with outliers.
 
@@ -231,7 +228,7 @@ Its very crucial for controlled experiments to exclude outliers from data and th
 2.	K-means cluster analysis
 3.	Rosners Test for outliers [1]
 
-Power Analysis:
+**Power Analysis:**
 
 Power analysis is used to estimate sample size required to execute test with minimal desired lift in the specified metric.
 
@@ -239,20 +236,20 @@ Sample Size Estimation for Continuous Metrics (Averages)
 Sample Size Estimation for Binary metrics (CVR)
 
 
-Causal Impact: (R Package)
+**Causal Impact: (R Package)**
 
 Causal inferences methodologies are used to measure the causal impact from the intervention meaning we can use this to measure the impact of a particular offer or promotion. Causal Impact can be used measure the incremental benefits from running the campaign based on pre-post analysis (which is something different from regular controlled digital experiments which is always during the test comparison).  [3]
 
 
-Forecasting:
+**Forecasting:**
 
 I have used the Prophet R Package for forecasting traffic for based on spend for digital marketing. The package is very robust, and it can handle for lot of exceptional scenarios in forecasting. [4]
 
-Marketing Channel Attribution:
+**Marketing Channel Attribution:**
 
 I did used channel attribution package from R which is based on Marco chain model to give credit to each touchpoint in customer journey before making a purchase on the site. Mostly focused towards digital marketing. This package does lot in terms of simplifying the use of model application. And there are various kinds of attributions like last click, first click, linear, proportionate attribution. [5][6]
 
-Bias:
+**Bias:**
 
 There are various kinds of bias that need to be taken care of for valid experimentation results. [1]
 
@@ -260,16 +257,16 @@ There are various kinds of bias that need to be taken care of for valid experime
 •	Randomization Bias
 •	Statistical Bias
 
-Bonferroni correction:
+**Bonferroni correction:**
 
 Significance required to eliminate error by correction method.
 Divide the significance level 0.05 by the number of tests in the multiple testing. Say if you are measuring 20 tests, then your significance level for the test should be 0.05/20 = 0.0025. The problem of Bonferroni correction is it tends to be too conservative. If many metrics are tested at the same time, maybe none of them turned out to be significant.
 
-False Discovery Rate:
+**False Discovery Rate:**
 
 Control false discovery rate (FDR): FDR = # false positives / # total rejections.
 
-Causality:
+**Causality:**
 
 Best scientific way to prove causality, i.e., the changes in metrics are caused by changes introduced in the treatment(s)[2]
 
