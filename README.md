@@ -45,7 +45,7 @@ Purpose of the document is to put together all resources and information related
 
 1. https://www.shopify.com/blog/the-complete-guide-to-ab-testing (Shopify)
 
-Companies with builtin experimentation Platforms
+**Companies who built their own experimentation Platform:**
 
 These are leading companies that are leaders in online experimentation. They are using the experimentation platform for variety of purposes all the way from testing new product launches to small change to button on website.
 
