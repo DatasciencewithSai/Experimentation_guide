@@ -1,16 +1,13 @@
 
-
-
 K Means Clustering
-
 
 Details:
 
-•	Clustering is used for grouping data into different buckets with similar characteristics
-•	Clustering is implemented in directly tableau or tableau connected through R
-•	Optimal number of clusters are determined based on elbow method or there are many ways out there
-•	In K means clustering number of clusters are pre-defined and input into model
-•	Cluster package in R does this in R
+* Clustering is used for grouping data into different buckets with similar characteristics
+* Clustering is implemented in directly tableau or tableau connected through R
+* Optimal number of clusters are determined based on elbow method or there are many ways out there
+* In K means clustering number of clusters are pre-defined and input into model
+* Cluster package in R does this in R
 
 Applications:
 
