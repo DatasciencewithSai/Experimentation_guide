@@ -24,7 +24,7 @@ Implementation :
 * Tableau had a default feature built for clustering which does out of the box K means clustering
 
 
-###  using  R  ####
+using  R:  
 
 Example:
 
