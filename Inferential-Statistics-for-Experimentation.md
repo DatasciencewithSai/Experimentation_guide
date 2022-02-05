@@ -4,7 +4,7 @@
 
 Details:
 
-1.	Various Tests used for test and learn statistical significance calculations
+1.	Various Tests are used for test and learn statistical significance calculations
 2.	Z test for Proportions
 3.	T test for means
 4.	Implemented in excel using formulas or in R
