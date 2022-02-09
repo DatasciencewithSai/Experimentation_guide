@@ -1,4 +1,4 @@
-# Experimentation_guide
+# Experimentation Guide
 
 **Objective:**
 This is the complete guide for controlled and uncontrolled experimentation. It includes resources required for experimentation.
