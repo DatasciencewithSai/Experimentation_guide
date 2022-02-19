@@ -30,7 +30,7 @@ Data:
 
 R code:
 
-Results
+Results:
 
 
 Reference:
