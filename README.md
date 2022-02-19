@@ -74,6 +74,7 @@ These are leading companies that are leaders in online experimentation. They are
 Data Science certification Courses
 1. HarvardX's Data Science Professional Certificate (available on edX, Data Science using R)
 2. IBM's IBM Data Science Professional Certificate (available on edX, Data Science using Python)
+3. SQL for Data Analysis course by Udacity ( https://learndigital.withgoogle.com/digitalgarage/course/sql-for-data-analysis )
 
 **Experimentation Books**
 
@@ -85,7 +86,6 @@ Data Science certification Courses
 6. How to Measure Anything by Doug Hubbard’s
 7. Lean Analytics: Use Data to Build a Better Startup Faster
 8. http://faculty.marshall.usc.edu/gareth-james/ISL/
-
 
 
 **Leading A/B Testing Paid Platforms**
