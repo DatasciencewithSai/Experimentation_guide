@@ -72,3 +72,103 @@ Test_Data %>% filter(SALES > 0 )%>%ggplot(aes(SPLIT_GROUP, SALES))+
 ```
 
 
+
+
+---
+title: "AB Test Measurement Analysis"
+output: html_notebook
+---
+
+## load libraries 
+```{r}
+library(tidyverse)
+library(lubridate)
+install.packages("formattable")
+library(formattable)
+```
+
+
+##Load Data thats dowloaded from Kaggle  
+
+```{r}
+## download from  https://www.kaggle.com/saraabdelaal/abtestdata?select=ab_data.csv 
+
+##load data into R 
+
+data <- read.csv(file.choose())
+
+```
+
+
+
+## Data exploration and preperation for analysis
+```{r}
+View(data)
+
+head(data)
+
+names(data)
+
+summary(data)
+
+length(unique(data$user_id))
+
+## find the accounts with both test and control experiences these are issue users and they are excluded 
+
+data_dups <- data %>% group_by(user_id) %>% summarise(counts = length(timestamp)) %>% filter(counts >1)
+
+### exclude duplicate users 
+data <- data %>% filter(!user_id %in% data_dups$user_id)
+
+##extract date from time stamp 
+data <- data %>% mutate(Test_Date = date(timestamp))
+
+```
+
+
+## Data analysis and Visulization
+```{r}
+
+##CVR trend chart 
+data %>% group_by(Test_Date, group) %>% summarise(converted = sum(converted),
+                                                                counts =n(),
+                                                                CVR = percent(sum(converted/n()))) %>%
+ filter(converted >= 485L & converted <= 860L) %>%
+ ggplot() +
+  aes(x = Test_Date, y = converted, colour = group) +
+  geom_line(size = 0.5) +
+  scale_color_hue(direction = 1) +
+  labs(x = "Test Date", y = "CVR", title = "CVR Trend") +
+  theme_minimal()
+
+## CVR Box Plot 
+
+data %>% group_by(Test_Date, group) %>% summarise(converted = sum(converted),
+                                                                counts =n(),
+                                                                CVR = percent(sum(converted/n()))) %>%
+ filter(converted >= 490L & converted <= 860L) %>%
+ ggplot() +
+  aes(x = group, y = CVR, fill = group) +
+  geom_boxplot() +
+  scale_fill_hue(direction = 1) +
+  labs(title = "CVR Box Plot") +
+  theme_minimal()
+
+
+
+
+
+
+View(data)
+
+names(data)
+
+data_1 <- data %>% group_by(Test_Date, group) %>% summarise(converted = sum(converted),
+                                                                counts =n(),
+                                                                CVR = percent(sum(converted/n())))
+
+
+data_1
+esquisse:: esquisser(data_1)
+```
+
