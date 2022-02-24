@@ -101,7 +101,7 @@ data <- read.csv(file.choose())
 
 
 
-## Data exploration and preperation for analysis
+## Data exploration and preperation and Wrangling 
 ```{r}
 View(data)
 
@@ -129,7 +129,7 @@ data <- data %>% mutate(Test_Date = date(timestamp))
 ## Data analysis and Visulization
 ```{r}
 
-##CVR trend chart 
+##CVR trend chart for understanding performance over the days 
 data %>% group_by(Test_Date, group) %>% summarise(converted = sum(converted),
                                                                 counts =n(),
                                                                 CVR = percent(sum(converted/n()))) %>%
@@ -141,7 +141,7 @@ data %>% group_by(Test_Date, group) %>% summarise(converted = sum(converted),
   labs(x = "Test Date", y = "CVR", title = "CVR Trend") +
   theme_minimal()
 
-## CVR Box Plot 
+## CVR Box Plot for understanding limits and data spread 
 
 data %>% group_by(Test_Date, group) %>% summarise(converted = sum(converted),
                                                                 counts =n(),
@@ -155,20 +155,44 @@ data %>% group_by(Test_Date, group) %>% summarise(converted = sum(converted),
   theme_minimal()
 
 
+## Density plot 
 
-
-
-
-View(data)
-
-names(data)
-
-data_1 <- data %>% group_by(Test_Date, group) %>% summarise(converted = sum(converted),
+data %>% group_by(Test_Date, group) %>% summarise(converted = sum(converted),
                                                                 counts =n(),
-                                                                CVR = percent(sum(converted/n())))
+                                                                CVR = percent(sum(converted/n())))  %>%
+ filter(converted >= 450L & converted <= 860L) %>%
+ ggplot() +
+  aes(x = CVR, fill = group, colour = group) +
+  geom_density(adjust = 1L) +
+  scale_fill_hue(direction = 1) +
+  scale_color_hue(direction = 1) +
+  labs(title = "Density Plot") +
+  theme_minimal()
 
-
-data_1
-esquisse:: esquisser(data_1)
 ```
+
+
+## AB Test reults and statistics 
+```{r}
+
+Test_Results <- data %>% group_by(group) %>% summarise(converted = sum(converted),
+                                                                counts =n(),
+                                                                CVR =percent(sum(converted/n())))
+
+CVR_lift <-  percent((((data%>%  summarise(t_sales = mean(case_when(group == "treatment" ~ converted), na.rm=TRUE)))/
+(summarise(data,c_sales = mean(case_when(group == "control" ~ converted), na.rm=TRUE))))-1),2)
+
+
+
+## prop.test() for proportions 
+prop.test(x = c(Test_Results[Test_Results$group=="control",]$converted, Test_Results[Test_Results$group=="treatment",]$converted ), 
+          n = c(Test_Results[Test_Results$group=="control",]$counts , Test_Results[Test_Results$group=="treatment",]$counts ), 
+          alternative = "two.sided")
+
+```
+
+
+
+
+
 
